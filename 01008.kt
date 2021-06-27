@@ -19,7 +19,7 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))){
     // a, b 입력받음
     val (a: Double, b: Double) = readLine()
         .split(" ")
-        .map{it.toDouble()}
+        .map{ it.toDouble() }
 
     // a / b 출력
     println((a / b))
